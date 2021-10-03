@@ -10,7 +10,7 @@
 
 # [开源绿洲 - 文档](https://github.com/OurForce2020/OpenOasis-Docs)
 
-简体中文 | [English](EN/README_EN.md)
+[简体中文](README.md) | English
 
 作为 **开源绿洲（OpenOasis）** 的子项目，本项目主要用于储存开源绿洲项目的相关资料文档。
 
