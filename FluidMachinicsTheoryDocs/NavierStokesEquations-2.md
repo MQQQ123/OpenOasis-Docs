@@ -1,12 +1,14 @@
 <p align="center">
-  <a href="https://github.com/OurForce2020/OpenOasis"><img src="../Resources/Logo/logo.png" alt=""></a>
+  <a href="https://github.com/OurForce2020/OpenOasis">
+  <img src="../Resources/Logo/logo.png" alt="">
+  </a>
 </p>
 
 ---------------------------------------------------------------------------
 
-## Navier-Stokes Equations 2
+## 纳维-斯托克斯方程组
 
-*流体力学·NS方程组·补充*  
+*Navier Stokes Equations 2*  
 
 <div align="center">
 
@@ -17,9 +19,9 @@
 
 ---------------------------------------------------------------------------
 
-### Boundary Layer
+### 边界层
 
-*边界层*
+*Boundary Layer*
 
 
 ---------------------------------------------------------------------------

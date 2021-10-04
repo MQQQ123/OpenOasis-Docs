@@ -1,14 +1,12 @@
 <p align="center">
 
-  <a href="https://github.com/OurForce2020/OpenOasis">
-  <img src="../Resources/Logo/logo.svg" alt="OpenOasis-Docs"> 
-  </a>
+  <a href="https://github.com/OurForce2020/OpenOasis"><img src="../Resources/Logo/logo.svg" alt="OpenOasis-Docs"></a>
   
 </p>
 
 ---------------------------------------------------------------------------
 
-## 纳维-斯托克斯方程组
+# 纳维-斯托克斯方程组
 
 *Navier-Stokes Equations*  
 
@@ -48,7 +46,7 @@
 
 ---------------------------------------------------------------------------
 
-### 流体运动的基本要素
+## 流体运动的基本要素
 
 *The Basic Elements of Fluid Motion*
 
@@ -145,7 +143,7 @@ u_z = f_z(t) \\
 
 ---------------------------------------------------------------------------
 
-### 流线和迹线
+## 流线和迹线
 
 *StreamLine & PathLine*
 
@@ -202,7 +200,7 @@ $$ \frac{\mathrm{d}x}{u_x} = \frac{\mathrm{d}y}{u_y} = \frac{\mathrm{d}z}{u_z} =
 
 ---------------------------------------------------------------------------
 
-### 质点运动的基本形式
+## 质点运动的基本形式
 
 *The Basic Performance of Particle Motion*
 
@@ -298,7 +296,7 @@ $$
 
 ---------------------------------------------------------------------------
 
-### 涡流和势流
+## 涡流和势流
 
 *Vortex Flow & Potential Flow*
 
@@ -395,7 +393,7 @@ $$\begin{aligned}
 
 ---------------------------------------------------------------------------
 
-### 流体运动的连续性方程
+## 流体运动的连续性方程
 
 *The Continuity Equation of Fluid Motion*
 
@@ -478,7 +476,7 @@ $$
 
 ---------------------------------------------------------------------------
 
-### 理想流体的运动方程
+## 理想流体的运动方程
 
 *The Motion Equation of Ideal Fluid*
 
@@ -585,7 +583,7 @@ $$\begin{cases}
 
 ---------------------------------------------------------------------------
 
-### 理想流体的能量方程
+## 理想流体的能量方程
 
 *The Energy Equation of Ideal Fluid*
 
@@ -782,7 +780,7 @@ $$z + \frac{p}{\rho g} + \frac{u^2}{2g} + \frac{1}{g}\int \frac{\partial u}{\par
 
 ---------------------------------------------------------------------------
 
-### 实际流体的运动方程
+## 实际流体的运动方程
 
 *The Motion Equation of Real Fluid*
 
@@ -1155,7 +1153,7 @@ $$\nabla^2 u = \nabla \cdot (\nabla u) = \frac{\partial^2 u}{\partial x^2} + \fr
 
 ---------------------------------------------------------------------------
 
-### 实际流体的能量方程
+## 实际流体的能量方程
 
 *The Energy Equation of Real Fluid*
 
@@ -1244,7 +1242,7 @@ $$\frac{\mathrm{d} e_s}{\mathrm{d} t} = f_m \cdot u + \frac{1}{\rho} \nabla (f_s
 
 ---------------------------------------------------------------------------
 
-### References
+## References
 
 *参考文献*
 
@@ -1253,7 +1251,7 @@ $$\frac{\mathrm{d} e_s}{\mathrm{d} t} = f_m \cdot u + \frac{1}{\rho} \nabla (f_s
 
 ---------------------------------------------------------------------------
 
-### Authors
+## Authors
 
 *作者*
 
