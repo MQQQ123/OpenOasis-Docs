@@ -1,12 +1,16 @@
 <p align="center">
-  <a href="https://github.com/OurForce2020/OpenOasis"><img src="../Resources/Logo/logo.png" alt=""></a>
+
+  <a href="https://github.com/OurForce2020/OpenOasis">
+  <img src="../Resources/Logo/logo.svg" alt="OpenOasis-Docs"> 
+  </a>
+  
 </p>
 
 ---------------------------------------------------------------------------
 
-## Navier-Stokes Equations
+## 纳维-斯托克斯方程组
 
-*流体力学·NS方程组*  
+*Navier-Stokes Equations*  
 
 <div align="center">
 
@@ -29,19 +33,30 @@
 采用欧拉法，将目光聚焦在空间内水流流动情况，分析对象是空间点处运动要素变化情况，    
 而不去追究具体的流体质点的运动轨迹。    
 
+
++ [运动的基本要素](#流体运动的基本要素)
++ [流线和迹线](#流线和迹线)
++ [运动的基本形式](#质点运动的基本形式)
++ [涡流和势流](#涡流和势流)
++ [连续性方程](#流体运动的连续性方程)
++ [理想流体的运动方程](#理想流体的运动方程)
++ [理想流体的能量方程](#理想流体的能量方程)
++ [实际流体的运动方程](#实际流体的运动方程)
++ [实际流体的能量方程](#实际流体的能量方程)
+
 </div>
 
 ---------------------------------------------------------------------------
 
-### Velocity、Acceleration、Density & Pressure
+### 流体运动的基本要素
 
-*流速、加速度、密度 和 压强*
+*The Basic Elements of Fluid Motion*
 
 <div align="center">
 
-一般情况下，同一时刻不同空间点 (x, y, z) 上流体的运动要素是不同的，即使在同一点上  
-运动要素也是随时间 t 变化的。  
-不同时刻流体质点在不同空间点的 **流速 u** 在个方向的投影：  
+一般情况下，同一时刻不同空间点 (x, y, z) 上流体的运动要素是不同的；即使在同一点上  
+流速、加速度、密度和压强，各项运动要素也是随时间 t 变化的。  
+不同时刻质点在不同空间点的 **流速** 在各方向的投影：  
 
 $$\begin{cases}
 u_x = f_x(x, y, z, t) \\
@@ -99,7 +114,10 @@ $$\frac{\mathrm{d}\rho}{\mathrm{d}t} = \frac{\partial \rho}{\partial t} + u_x\fr
 
 $$\frac{\mathrm{d}p}{\mathrm{d}t} = \frac{\partial p}{\partial t} + u_x\frac{\partial p}{\partial x} + u_y\frac{\partial p}{\partial y} + u_z\frac{\partial p}{\partial z}$$
 
+
 </div>
+
+[home](#纳维-斯托克斯方程组)
 
 *--- 注意：---*
 1. 在推导过程中忽略了高阶微量（二阶及以上）。  
@@ -132,9 +150,9 @@ u_z = f_z(t) \\
 
 ---------------------------------------------------------------------------
 
-### StreamLine & PathLine
+### 流线和迹线
 
-*流线 和 迹线*
+*StreamLine & PathLine*
 
 <div align="center">
 
@@ -179,6 +197,8 @@ $$ \frac{\mathrm{d}x}{u_x} = \frac{\mathrm{d}y}{u_y} = \frac{\mathrm{d}z}{u_z} =
 
 </div>
 
+[home](#纳维-斯托克斯方程组)
+
 *--- 注意：---*
 1. 流线是流场的一个瞬时快照；迹线是不同时刻质点位置集合。  
 质点运动各时刻下、当前位置上，迹线与流速相切；但同时回看，之前位置上流速已经改变、不再相切。  
@@ -187,9 +207,9 @@ $$ \frac{\mathrm{d}x}{u_x} = \frac{\mathrm{d}y}{u_y} = \frac{\mathrm{d}z}{u_z} =
 
 ---------------------------------------------------------------------------
 
-### The Basic Performance of Particle Motion
+### 质点运动的基本形式
 
-*质点运动的基本形式*
+*The Basic Performance of Particle Motion*
 
 <div align="center">
 
@@ -280,6 +300,8 @@ $$\begin{cases}
 
 </div>
 
+[home](#纳维-斯托克斯方程组)
+
 *--- 注意：---*
 1. 分析微分平行六面体时，一般假设速度分量沿坐标轴正方向增大。
 2. 推导偏转角度时，分母中忽略高阶项（二阶及以上）。
@@ -287,9 +309,9 @@ $$\begin{cases}
 
 ---------------------------------------------------------------------------
 
-### Vortex Flow & Potential Flow
+### 涡流和势流
 
-*涡流 和 势流*
+*Vortex Flow & Potential Flow*
 
 <div align="center">
 
@@ -372,6 +394,8 @@ $$ \Gamma = \oint_{c} \mathrm{d}\varphi = [\varphi]_{A}^{A} = 0 $$
 
 </div>
 
+[home](#纳维-斯托克斯方程组)
+
 *--- 注意：---*
 1. 环线积分中绕行方向遵循左手定则，即绕行过程中保持左手位于环内。
 
@@ -385,9 +409,9 @@ $$\begin{aligned}
 
 ---------------------------------------------------------------------------
 
-### The Continuity Equation of Fluid Motion
+### 流体运动的连续性方程
 
-*流体运动的连续性方程*
+*The Continuity Equation of Fluid Motion*
 
 <div align="center">
 
@@ -457,6 +481,8 @@ Q_i = Q_o
 
 </div>
 
+[home](#纳维-斯托克斯方程组)
+
 *--- 注意：---*
 1. 分析微分六面体内质量变化时，认为六面体空间是固定的、不变的。
 
@@ -468,9 +494,9 @@ Q_i = Q_o
 
 ---------------------------------------------------------------------------
 
-### The Motion Equation of Ideal Fluid
+### 理想流体的运动方程
 
-*理想流体的运动方程*
+*The Motion Equation of Ideal Fluid*
 
 <div align="center">
 
@@ -571,11 +597,13 @@ $$\begin{cases}
 
 </div>
 
+[home](#纳维-斯托克斯方程组)
+
 ---------------------------------------------------------------------------
 
-### The Energy Equation of Ideal Fluid
+### 理想流体的能量方程
 
-*理想流体的能量方程*
+*The Energy Equation of Ideal Fluid*
 
 <div align="center">
 
@@ -759,6 +787,8 @@ $$z + \frac{p}{\rho g} + \frac{u^2}{2g} + \frac{1}{g}\int \frac{\partial u}{\par
 
 </div>
 
+[home](#纳维-斯托克斯方程组)
+
 *--- 注意：---*
 1. 螺旋流，指流体质点既沿着流线方向运动，同时在运动过程中绕流线旋转。
 
@@ -768,9 +798,9 @@ $$z + \frac{p}{\rho g} + \frac{u^2}{2g} + \frac{1}{g}\int \frac{\partial u}{\par
 
 ---------------------------------------------------------------------------
 
-### The Motion Equation of Real Fluid
+### 实际流体的运动方程
 
-*实际流体的运动方程*
+*The Motion Equation of Real Fluid*
 
 <div align="center">
 
@@ -1086,6 +1116,8 @@ u_x\frac{\partial u_x}{\partial x} + u_y\frac{\partial u_x}{\partial y} = - \fra
 
 </div>
 
+[home](#纳维-斯托克斯方程组)
+
 *--- 注意：---*   
 1. 速度沿各轴正向增大，则 $\tau_{zx}$ 对作用面起阻滞作用，$\tau_{zx} + \frac{\partial \tau_{zx}}{\partial z}\mathrm{d}z$ 对作用面起推动作用；其他类推。
 
@@ -1139,9 +1171,9 @@ $$\nabla^2 u = \nabla \cdot (\nabla u) = \frac{\partial^2 u}{\partial x^2} + \fr
 
 ---------------------------------------------------------------------------
 
-### The Energy Equation of Real Fluid
+### 实际流体的能量方程
 
-*实际流体的能量方程*
+*The Energy Equation of Real Fluid*
 
 <div align="center">
 
@@ -1218,6 +1250,8 @@ $$\frac{\mathrm{d} e_s}{\mathrm{d} t} = f_m \cdot u + \frac{1}{\rho} \nabla (f_s
 
 
 </div>
+
+[home](#纳维-斯托克斯方程组)
 
 *--- 注意：---*  
 1. 傅里叶定律：导热现象中，单位时间内通过给定截面的热量，正比于垂直于该截面方向上的温度梯度  
