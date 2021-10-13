@@ -115,7 +115,7 @@ $$
 
 外边界上水流为势流，若不计重力（势能），其能量方程 $\frac{p}{\rho g} + \frac{U_{0}^{2}}{2 g} = const$；因为外边界上流速可视为常数 ，  
 故外边界 AC 上动水压强也为常数，均等于 A 点动水压强 p。由此，作用在外边界动水压力在流动方向上分量 ：  
-$$p [(\delta + \frac{\partial \delta}{\partial x} \mathrm{d}x) - \delta ] = p \frac{\partial \delta}{\partial x} \mathrm{d}x \quad \Rightarrow I_{AC} = p \frac{\partial \delta}{\partial x} \mathrm{d}x \mathrm{d}t
+$$p [(\delta + \frac{\partial \delta}{\partial x} \mathrm{d}x) - \delta ] = p \frac{\partial \delta}{\partial x} \mathrm{d}x  \Rightarrow I_{AC} = p \frac{\partial \delta}{\partial x} \mathrm{d}x \mathrm{d}t
 $$
 
 若作用在固体表面的切应力为 $\tau_0$，则作用在固体表面 BD 上的摩擦阻力的冲量为:  
