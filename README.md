@@ -72,13 +72,12 @@
 
 数值计算方案文档，主要内容包括主流数值计算算法以及传统方程分析方法。
 
-+ [特征线方法](NumericalComputationMethods/CharacteristicsMethod.md)
-+ [瞬时流态法](NumericalComputationMethods/SpecifiedTimeIntervalMethod.md)
-+ [有限差分法](NumericalComputationMethods/FiniteDifferenceMethod.md)
-+ [有限体积法](NumericalComputationMethods/FiniteVolumeMethod.md)
-+ [有限元方法](NumericalComputationMethods/FiniteElementMethod.md)
-+ [粒子流体法](NumericalComputationMethods/PatricleHydrodynamicsMethod.md)
-+ [深度学习法](NumericalComputationMethods/DeepLearning.md)
++ [特征线方法](NumericalComputation/CharacteristicsMethod.md)
++ [有限差分法](NumericalComputation/FiniteDifferenceMethod.md)
++ [有限体积法](NumericalComputation/FiniteVolumeMethod.md)
++ [有限元方法](NumericalComputation/FiniteElementMethod.md)
++ [粒子流体法](NumericalComputation/ParticleHydrodynamicsMethod.md)
++ [深度学习法](NumericalComputation/DeepLearning.md)
 
 ---------------------------------------------------------------------------------
 
