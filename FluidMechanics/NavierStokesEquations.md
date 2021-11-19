@@ -110,10 +110,10 @@ $$\frac{\mathrm{d}p}{\mathrm{d}t} = \frac{\partial p}{\partial t} + u_x\frac{\pa
 
 </div>
 
-[home](#纳维-斯托克斯方程组)
+[<i class="fa fa-home"></i>](#纳维-斯托克斯方程组)
 
 *--- 注意：---*
-1. 在推导过程中忽略了高阶微量（二阶及以上），这种处理的依据：
+1. 在推导过程中忽略了高阶微量（二阶及以上），这种处理的依据：  
 方程是建立在无限小的微分六面体上的，略去的高阶项相比未被略去的项无限小，用微分方程描述这个系统时，  
 绝对误差和相对误差都趋于0；  
 但若进行离散化数值求解，因离散网格不是无限小的，此时被略去的高阶项相较之下就不是无穷小而是有限值，  
@@ -194,7 +194,7 @@ $$ \frac{\mathrm{d}x}{u_x} = \frac{\mathrm{d}y}{u_y} = \frac{\mathrm{d}z}{u_z} =
 
 </div>
 
-[home](#纳维-斯托克斯方程组)
+[<i class="fa fa-home"></i>](#纳维-斯托克斯方程组)
 
 *--- 注意：---*
 1. 流线是流场的一个瞬时快照；迹线是不同时刻质点位置集合。  
@@ -289,7 +289,7 @@ $$
 
 </div>
 
-[home](#纳维-斯托克斯方程组)
+[<i class="fa fa-home"></i>](#纳维-斯托克斯方程组)
 
 *--- 注意：---*
 1. 分析微分平行六面体时，一般假设速度分量沿坐标轴正方向增大。
@@ -381,7 +381,7 @@ $$ \Gamma = \oint_{c} \mathrm{d}\varphi = [\varphi]_{A}^{A} = 0 $$
 
 </div>
 
-[home](#纳维-斯托克斯方程组)
+[<i class="fa fa-home"></i>](#纳维-斯托克斯方程组)
 
 *--- 注意：---*
 1. 环线积分中绕行方向遵循左手定则，即绕行过程中保持左手位于环内。
@@ -469,7 +469,7 @@ $$
 
 </div>
 
-[home](#纳维-斯托克斯方程组)
+[<i class="fa fa-home"></i>](#纳维-斯托克斯方程组)
 
 *--- 注意：---*
 1. 分析微分六面体内质量变化时，认为六面体空间是固定的、不变的。
@@ -583,7 +583,7 @@ $$\begin{cases}
 
 </div>
 
-[home](#纳维-斯托克斯方程组)
+[<i class="fa fa-home"></i>](#纳维-斯托克斯方程组)
 
 ---------------------------------------------------------------------------
 
@@ -773,7 +773,7 @@ $$z + \frac{p}{\rho g} + \frac{u^2}{2g} + \frac{1}{g}\int \frac{\partial u}{\par
 
 </div>
 
-[home](#纳维-斯托克斯方程组)
+[<i class="fa fa-home"></i>](#纳维-斯托克斯方程组)
 
 *--- 注意：---*
 1. 螺旋流，指流体质点既沿着流线方向运动，同时在运动过程中绕流线旋转。
@@ -1102,7 +1102,7 @@ u_x\frac{\partial u_x}{\partial x} + u_y\frac{\partial u_x}{\partial y} = - \fra
 
 </div>
 
-[home](#纳维-斯托克斯方程组)
+[<i class="fa fa-home"></i>](#纳维-斯托克斯方程组)
 
 *--- 注意：---*   
 1. 速度沿各轴正向增大，则 $\tau_{zx}$ 对作用面起阻滞作用，$\tau_{zx} + \frac{\partial \tau_{zx}}{\partial z}\mathrm{d}z$ 对作用面起推动作用；其他类推。
@@ -1113,47 +1113,40 @@ $$ F + F_N + (-m \cdot a) = 0 $$
 3. 切应力互等定理，相互垂直平面上，切应力成对存在且大小相等，同垂直于平面交线：  
 $$\tau_{xz} = \tau_{zx},   \tau_{xy} = \tau_{yx},   \tau_{yz} = \tau_{zy}$$
 
-4. **微分算子**  
+4. N-S 方程可以认为是对 **玻尔兹曼方程** 在近似平衡态下（层流）的一阶近似（欧拉方程是零阶近似）。  
+
+5. 稳态 N-S 方程即恒定流 N-S 方程，但得到的稳态解仍是不稳定的，任意微小扰动会被流场无限放大。
+
+
+*--- 附录：---* 
+
+**微分算子**  
 $$\nabla = (\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z})$$
 
-    **梯度算式**  
-    + 标量梯度计算获得梯度矢量  
+**梯度算式**  
++ 标量梯度计算获得梯度矢量  
 $$\nabla u = (\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z})u = (\frac{\partial u}{\partial x}, \frac{\partial u}{\partial y}, \frac{\partial u}{\partial z}) = (u_x, u_y, u_z) = \textbf{u} $$ 
-    + 矢量梯度计算获得梯度张量  
++ 矢量梯度计算获得梯度张量  
 $$\nabla\textbf{u} = [(\frac{\partial u_x}{\partial x}, \frac{\partial u_x}{\partial y}, \frac{\partial u_x}{\partial z})^T, (\frac{\partial u_y}{\partial x}, \frac{\partial u_y}{\partial y}, \frac{\partial u_y}{\partial z})^T, (\frac{\partial u_z}{\partial x}, \frac{\partial u_z}{\partial y}, \frac{\partial u_z}{\partial z})^T]$$
 
-    **散度算式**
-    + 矢量散度计算获得标量  
+**散度算式**
++  量散度计算获得标量  
 $$\nabla\cdot \textbf{u} = (\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z})\cdot(u_x, u_y, u_z) = \frac{\partial u_x}{\partial x} + \frac{\partial u_y}{\partial y} + \frac{\partial u_z}{\partial z}$$
-    + 张量散度计算获得矢量
++ 张量散度计算获得矢量
 $$\nabla\cdot \textbf{U} = (\frac{\partial U_{xx}}{\partial x} + \frac{\partial U_{xy}}{\partial y} + \frac{\partial U_{xz}}{\partial z}, \frac{\partial U_{yx}}{\partial x} + \frac{\partial U_{yy}}{\partial y} + \frac{\partial U_{yz}}{\partial z}, \frac{\partial U_{zx}}{\partial x} + \frac{\partial U_{zy}}{\partial y} + \frac{\partial U_{zz}}{\partial z})$$
 
-    **拉普拉斯算式**
-    + 一般用于标量场计算  
+**拉普拉斯算式**
++ 一般用于标量场计算  
 $$\nabla^2 u = \nabla \cdot (\nabla u) = \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}$$     
-
-5. N-S 方程可以认为是对 **玻尔兹曼方程** 在近似平衡态下（层流）的一阶近似（欧拉方程是零阶近似）。  
-
-6. 稳态 N-S 方程即恒定流 N-S 方程，但得到的稳态解仍是不稳定的，任意微小扰动会被流场无限放大。
 
 
 *--- 附录：---*  
-1. 关于 **转动** 与 **平动** ：
-    + 力（Force），改变物体平动状态；
-    + 力矩（Torque），改变物体转动状态；$T = s \times F$，力矩是位移与力的矢量积。
-    + 如果一个系统，在研究过程中，不受外力作用，那么这个系统的总动量守恒。
-    + 如果一个系统，在研究过程中，不受外力矩的作用，那么这个系统的总角动量守恒。
-    + 物体达到静平衡，$\sum F = 0    And    \sum T = 0$ 。
 
-| 运动 | --- | --- | --- | --- | --- |
-| :--- | :--- | :--- | :--- | :--- | :--- | 
-| 平动 | 位移，$\mathrm{d}s$ | 速度，$v = \frac{\mathrm{d}s}{\mathrm{d}t}$ | 加速度，$a = \frac{\mathrm{d}v}{\mathrm{d}t}$ | 惯性质量，m | 力，$F = ma$
-| 转动 | 角位移，$\mathrm{d}\theta$ | 角速度，$\omega = \frac{\mathrm{d}\theta}{\mathrm{d}t}$ | 角加速度，$\alpha = \frac{\mathrm{d}\omega}{\mathrm{d}t}$ | 转动惯量，$I$ | 力矩，$T = I\alpha$|
-
-| 运动 | --- | --- | --- | --- | 
-| :--- | :--- | :--- | :--- | :--- |
-| 平动 | 动量，$P = mv$ | 动能，$E_k = \frac{1}{2} mv^2$ | 做功，$W = \int_{s1}^{s2}F \mathrm{d}s$ | 静平衡，$\sum F = 0$ |
-| 转动 | 角动量，$L = I\alpha$ | 角动能，$E_k = \frac{1}{2} I\omega^2$ |做功，$W = \int_{\theta1}^{\theta2}T \mathrm{d}\theta$ | 静平衡，$\sum T = 0$ |
+关于 **转动** 与 **平动** ：
++ 力（Force），改变物体平动状态；力矩（Torque），改变物体转动状态；$T = s \times F$，力矩是位移与力的矢积。
++ 如果一个系统，在研究过程中，不受外力作用（$\sum F = 0$），那么这个系统的总动量守恒。
++ 如果一个系统，在研究过程中，不受外力矩的作用（$\sum T = 0$），那么这个系统的总角动量守恒。
++ 物体达到静平衡，$\sum F = 0  \quad  And  \quad  \sum T = 0$ 。
 
 ---------------------------------------------------------------------------
 
@@ -1237,7 +1230,7 @@ $$\frac{\mathrm{d} e_s}{\mathrm{d} t} = f_m \cdot u + \frac{1}{\rho} \nabla (f_s
 
 </div>
 
-[home](#纳维-斯托克斯方程组)
+[<i class="fa fa-home"></i>](#纳维-斯托克斯方程组)
 
 *--- 注意：---*  
 1. 傅里叶定律：导热现象中，单位时间内通过给定截面的热量，正比于垂直于该截面方向上的温度梯度  
@@ -1246,18 +1239,18 @@ $$\frac{\mathrm{d} e_s}{\mathrm{d} t} = f_m \cdot u + \frac{1}{\rho} \nabla (f_s
 
 ---------------------------------------------------------------------------
 
-## References
+## 参考文献
 
-*参考文献*
+*References*
 
 [1] 吴持恭. 水力学：下册[M]. 高等教育出版社, 2007.  
 [2] 李福宝,李勤,等. 流体力学[M]. 冶金工业出版社, 2010.  
 
 ---------------------------------------------------------------------------
 
-## Authors
+## 作者
 
-*作者*
+*Authors*
 
 [1] **朗月**，“ 希望这篇文章能够为你提供帮助，如有错误望不吝指正，欢迎交流！:D ”  
 
