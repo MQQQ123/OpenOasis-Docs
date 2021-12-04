@@ -1,6 +1,6 @@
 <p align="center">
 
-  <a href="https://github.com/OurForce2020/OpenOasis"><img src="../Resources/Logo/logo.svg" alt="OpenOasis-Docs"></a>
+  <a href="https://github.com/OurForce2020/OpenOasis"><img src="../../Resources/Logo/logo.svg" alt="OpenOasis-Docs"></a>
   
 </p>
 
